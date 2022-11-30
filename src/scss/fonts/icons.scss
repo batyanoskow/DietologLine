@@ -1,0 +1,56 @@
+%ic {
+	font-family: "icons";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+[class*="_icon-"] {
+	&:before {
+		@extend %ic;
+		display: block;
+	}
+}
+._icon-1:before {
+	content: "\e900";
+  }
+  ._icon-2:before {
+	content: "\e901";
+  }
+  ._icon-3:before {
+	content: "\e902";
+  }
+  ._icon-4:before {
+	content: "\e903";
+	color: #F37A92;
+  }
+  ._icon-5:before {
+	content: "\e904";
+  }
+  ._icon-food:before {
+	content: "\e905";
+	color: #F0B14E;
+  }
+  ._icon-heart:before {
+	content: "\e906";
+  }
+  ._icon-LightBulb:before {
+	content: "\e907";
+	color: #5DBD6D;
+  }
+  ._icon-Tree:before {
+	content: "\e908";
+	color: #F0B14E;
+  }
+  ._icon-Weight:before {
+	content: "\e909";
+	color:  #F37A92;
+  }
+  ._icon-Weight1:before {
+	content: "\e90a";
+	color: #5DBD6D;
+  }
+  
